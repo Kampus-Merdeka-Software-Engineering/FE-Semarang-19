@@ -1,0 +1,481 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans',sans-serif;
+
+}
+
+.wrapper {
+    width: 1100px;
+    margin: auto;
+    position: relative;
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    position: relative;
+    background: #b0b0b0;
+}
+
+.logo a {
+    margin-left: 100px;
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #364f6b;
+}
+
+.menu {
+    float: right;
+    margin-right: 100px;
+
+    
+}
+
+nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky; 
+    top: 0;
+    background: #FFFFFF;
+    z-index: 1;
+    border-bottom:1px solid #364f6b;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin:50px;
+    align-items: center;
+    grid-gap : 50px;
+}
+.grid >article{
+    box-shadow: 10px 10px 10px 0px ;
+    border-radius: 50px;
+    text-align: center;
+    width: 350px;
+    transition: tranform;
+}
+.grid > article img{
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    width: 50%;
+    height: 50%;
+}
+.grid > article img{
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        width: 70%;
+        height: 50%;
+}
+
+.kolom .deskripsi {
+    margin-top: 40px;
+    background-color: #c9f8f1;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px lightblue;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #364f6b;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+a.tbl-biru {
+    background: #3f72af;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #fc5185;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #fc5185;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover {
+    background: #3f72af;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+}
+
+.tengah {
+    text-align: center;
+    width: 100%;
+}
+
+.tutor-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-tutor {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-tutor img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.kartu-tutor p {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 25px;
+    text-align: center;
+    color: #364f6b;
+}
+
+.partner-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kartu-partner {
+    width: 20%;
+    margin: 0 auto;
+}
+
+.kartu-partner img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+#contact {
+    background: #dedede;
+    padding:50px 0px 50px 0px;
+}
+
+.footer {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.footer-section {
+    width: 20%;
+    margin: 0 auto;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    line-height: 50px;
+}
+
+#copyright {
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+@media screen and (max-width: 991.98px) {
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .wrapper {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline-block;
+        float: none;
+    }
+
+    section {
+        display: block;
+    }
+
+    section img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .kartu-tutor {
+        width: 50%;
+    }
+
+    .kartu-partner {
+        width: 50%;
+    }
+}
+
+/*untuk form*/
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+   }
+
+ * {
+
+  box-sizing: border-box;
+
+}
+
+form {
+
+  padding: 1em;
+
+  background: #f9f9f9;
+
+  border: 1px solid #c1c1c1;
+
+  margin-top: 2rem;
+
+  max-width: 600px;
+
+  margin-left: auto;
+
+  margin-right: auto;
+
+  padding: 1em;
+
+}
+
+form input {
+
+  margin-bottom: 1rem;
+
+  background: #fff;
+
+  border: 1px solid #9c9c9c;
+
+}
+
+form button {
+
+  background: #3f72af;
+
+  padding: 0.7em;
+
+  border: 0;
+
+}
+
+
+
+form button:hover {
+
+    background: #fc5185;
+
+  color: white;
+
+}
+
+form span a{
+
+  background: lightblue;
+
+  padding: 0.7em;
+
+  border: 0;
+
+  text-decoration: none;
+
+  color: black;
+
+  text-align: center;
+
+}
+
+
+
+form span a:hover {
+
+  background: blue;
+
+  color: white;
+
+}
+
+
+
+
+
+label {
+
+  text-align: right;
+
+  display: block;
+
+  padding: 0.5em 1.5em 0.5em 0;
+
+}
+
+input {
+
+  width: 100%;
+
+  padding: 0.7em;
+
+  margin-bottom: 0.5rem;
+
+}
+
+input:focus {
+
+  outline: 3px solid green;
+
+}
+
+select {
+
+  width: 100%;
+
+  padding: 0.7em;
+
+  margin-bottom: 0.5rem;
+
+}
+
+select:focus {
+
+  outline: 3px solid green;
+
+}
+
+@media (min-width: 400px) {
+
+  form {
+
+    overflow: hidden;
+
+  }
+
+  label {
+
+    float: left;
+
+    width: 200px;
+
+  }
+
+  input {
+
+    float: left;
+
+    width: calc(100% - 200px);
+
+  }
+
+
+
+    select {
+
+    float: left;
+
+    width: calc(100% - 200px);
+
+  }
+
+  button {
+
+    float: right;
+
+    width: calc(100% - 200px);
+
+  }
+}
+
