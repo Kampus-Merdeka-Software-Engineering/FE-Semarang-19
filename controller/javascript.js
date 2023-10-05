@@ -1,4 +1,5 @@
 // menu
+
 const tombolMenu = $(".tombol-menu");
 const menu = $("nav .menu ul");
 
@@ -27,25 +28,6 @@ $(window).resize(function (params) {
     }
     klikMenu();
 });
-
-// Mengambil referensi ke elemen yang akan dihapus dan muncul kembali
-const eventIntro = document.getElementById('intro');
-
-// Fungsi untuk menyembunyikan elemen
-function sembunyikanElemen() {
-    eventIntro.style.display = 'none';
-}
-
-// Fungsi untuk menampilkan elemen kembali
-function tampilkanElemen() {
-    eventIntro.style.display = 'block';
-}
-
-// Mengatur interval untuk menghapus dan menampilkan elemen
-var intervalID = setInterval(function() {
-    sembunyikanElemen();
-    setTimeout(tampilkanElemen, 8000); // Menampilkan elemen kembali setelah 5 detik
-}, 10000); // Mengulang setiap 10 detik (10000 milidetik)
 
 // efek scrol
 $(document).ready(function(params) {
