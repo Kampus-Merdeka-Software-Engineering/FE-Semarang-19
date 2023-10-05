@@ -306,7 +306,7 @@ div img{
 }
 
 section.motto{
-   background:url('/asset/qoute1.jpg') no-repeat;
+   background:url('../asset/qoute1.jpg') no-repeat;
    background-attachment: fixed;
    background-position: center;
    background-size: cover;
