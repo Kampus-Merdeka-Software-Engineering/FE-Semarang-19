@@ -1,146 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SiJeni</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="/style/style.css">
 </head>
+
 <body>
     <nav>
-        <div class="navbar">
-            <div class="logo"><a href=''>SiJeni</a></div>
+        <!-- Navbar -->
+        <div class="layar-dalam">
+            <div class="logo">
+                <a href=""> <img src="/asset/sijeni-white.png" class="putih" />
+                </a>
+                <a href=""> <img src="/asset/sijeni-black.png" class="black" />
+                </a>
+            </div>
+            <!--  menu ntar di ganti jadi navbar-->
             <div class="menu">
+                <a href="#" class="tombol-menu">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </a>
                 <ul>
                     <li><a href="#home">Home</a></li>
-                    <li><a href="#layanan">layanan</a></li>
-                    <li><a href="#order">cara order</a></li>
-                    <li><a href="#contact">contact</a></li>
-                    <li><a href="form.html" class="tbl-biru">order</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">Service</a></li>
+                    <li><a href="#how-to-oder">How To Oder</a></li>
+                    <li><a href="#career">Career</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="http://localhost:3000/form">Order</a></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <div class="wrapper">
-        <!-- untuk home -->
-        <section id="home">
-            <img src="https://img.freepik.com/free-vector/delivery-point-abstract-concept-illustration_335657-3937.jpg?w=740&t=st=1694002180~exp=1694002780~hmac=ec6b3e06201f8e797569d18023b85c489e4aa5a78ccbdb5fc7c8e61573875895"/>
-            <div class="kolom">
-                <p class="deskripsi">Siap antar kemana saja</p>
-                <h2>cepat,tepat dan amanah</h2>
-                <p>SiJeni berkomitmen untuk memanfaatkan sistem IT yang canggih untuk meningkatkan efesiensi.</p>
-                <p>Operasional 365 hari, menjangkau seluruh indonesia, 24 jam melayani keluhan pelanggan, dapat memantau secara real time, sistem klaim yang cepat</p>
+    <!-- End Navbar -->
+
+    <!-- Video -->
+    <div class="layar-penuh">
+        <header id="home">
+            <div class="overlay"></div>
+            <video autoplay muted loop>
+                <source src="/asset/video.mp4" type="video/mp4" />
+            </video>
+            <div class="intro">
+                <h3>Visit SIJENI</h3>
+                <p>Shipping Excellence Beyond Borders</p>
+                <p>
+                    <a href="" class="tombol">INFO</a>
+                </p>
+            </div>
+        </header>
+        <main>
+            <section id="about">   
+                    <div class="layar-dalam">
+                        <!-- <img src="/asset/img1.jpg" > -->
+                    <h3 class="about">About US</h3>
+                    <div class="ringkasan-about">
+                    <p class="ringkasan">
+                        Your Cargo, Our Commitment
+                    </p>
+                    <div class="konten-isi">
+                        <p>
+                            SiJeni is an expedition company that has entered the logistics market with bold and ambitious strides, despite being only a month old. Founded by an experienced team with years of expertise in the industry, SiJeni was established with a determination to bring about positive change in the world of expedition. In a short span of time, the company has garnered the attention of customers and business partners alike with its focus on innovation and superior customer service.   </p>
+                            <p>
+                            SiJeni understands that success in the expedition business hinges on efficiency and timeliness, which forms the core of their operations. By combining state-of-the-art technology with a team of supply chain management experts, SiJeni has successfully delivered efficient and reliable logistics solutions to their clients. Despite its youth, the company has forged an extensive network of logistics and transportation partners, enabling them to tackle any challenges in the realm of cargo delivery. </p>
+                            <p>Furthermore, SiJeni is committed to being socially and environmentally responsible. They practice sustainability in their operations, aiming to reduce environmental impact while supporting the local community. With a strong spirit of innovation and dedication to customer satisfaction, SiJeni has cemented its position as an undeniable player in the competitive expedition industry. They are poised to face both challenges and opportunities in the future, while continually enhancing their services for the benefit of customers and sustainable business growth. </p>
+                      
+                    </div>
+                    </div>
+                </div>
+            </section>
+            <section class="grey" id="service">
+
+                    <h3> Services </h3>
+               
+                <div class="layar-dalam service">
+                    <div>
+                        <img src="/asset/service1.png">
+                        <h5>Regular</h5>
+                        <p>
+                            Regular delivery service is a standard option that offers delivery of goods in a time that 
+                            usually takes a few days or more, depending on the distance and destination of the shipment. 
+                            This service is suitable for shipments that do not require immediate delivery and are prioritized 
+                            to save costs.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="/asset/service2.png">
+                        <h5>Express</h5>
+                        <p>
+                            Express delivery services are options designed to deliver items quickly. Express delivery can 
+                            reach the destination within one to two business days, depending on the location and service 
+                            provider. This service is suitable for situations where speed of delivery is critical, such 
+                            as urgent document deliveries or items that need to arrive quickly.
+                        </p>
+                    </div>
+                    <div>
+                        <img src="/asset/service3.jpg">
+                        <h5>Same Day</h5>
+                        <p>
+                            Same day delivery service is the fastest option, where the item or package is delivered on the 
+                            same day as the shipment. This is the fastest solution for very urgent delivery needs. This 
+                            service can only be used for deliveries within the same province.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <div class=" how-to-oder" id="how-to-oder">
+                <h3>
+                How To Oder </h3>
+                <div class="ringkasan-about">
+                    <p class="ringkasan-order">
+                        You can see the steps on how to send goods with SiJeni 
+                    </p>
+                </div>
+            </div>
+            <section id="order"> 
+                <div>
+                    <img src="/asset/order1.png">
+                    <h5>Fill in the delivery form </h5>
+                </div>
+                <div>
+                    <img src="/asset/order2.png">
+                        <h5>Hand over the package to the drop point</h5>
+                </div>
+                <div>
+                    <img src="/asset/order3.png">
+                        <h5>The package will be delivered to the destination</h5>
+                </div>
+                <div>
+                    <img src="/asset/order4.png">
+                        <h5>Package delivered</h5>
+                </div>
+            </section>
+            <section class="motto">
+                <div class="layar-dalam">
+                    <p>" Shipping Excellence Beyond Borders "</p>
+                </div>
+            </section>
+            <section id="about">   
+                <div class="layar-dalam" id="career">
+                 
+                <h3 class="about">Career</h3>
+                <div class="ringkasan-about">
+                    
+                <p class="ringkasan">
+                    excited to pursue your career in this industry and contribute to the company's growth
+                </p>
+                <div class="konten-isi">
+                    <div class="career">
+                        <img src="/asset/career.jpg">
+                    </div>
+                    <p>
+                        SiJeni is a newly established and rapidly growing logistics company, actively seeking talented individuals to join our team. We are a passionate company that places a strong emphasis on innovation, efficiency, and outstanding customer service  in all that we do.Career opportunities at SiJeni are diverse. You can join us in various roles, ranging from logistics and supply chain management to information technology, marketing, and customer service. We provide opportunities for growth and encourage you to pursue your passions within a supportive professional environment. <p>
+                        
+                        We believe that our company's success relies on a dedicated, creative, and visionary team that aims to make a positive impact. At SiJeni, you will have access to the latest technology and in-depth training. We also offer career development programs designed to help you reach your full potential. Furthermore, we highly value our company culture, including integrity, teamwork, and a commitment to sustainability. Join us, and you will become part of a forward-thinking team that influences the expedition industry and creates a better future in logistics. If you aspire to have a career in a dynamic, innovative company with opportunities to shape the future of the industry, SiJeni is the right place for you. Discover your career opportunities with us today and become a part of our journey towards greater success.</p>
+                  
+                </div>
+                </div>
             </div>
         </section>
-
-        <!-- untuk layanan -->
-        <section id="layanan">
-            <div class="container">
-                <main class="grid">
-                    <h1>Layanan</h1>
-                <article>
-                <img src="https://img.freepik.com/free-photo/woman-signing-delivery-paper_23-2148674979.jpg?w=900&t=st=1694131868~exp=1694132468~hmac=736aad61adbeb98d83f05f41d6c7c091087519c3caecdf9a842189864866fb16"
-                <div class="konten">
-                <h2>Express</h2>
-                    <p>pengiriman lebih cepat</p>
-                </div>
-            </article>
-            <div class="container">
-                <main class="grid">
-            <article>
-                <img src="https://img.freepik.com/free-photo/close-up-person-signing-parcel-delivery_23-2148944560.jpg?w=900&t=st=1694132150~exp=1694132750~hmac=5b792a67723e90fdd0d097703b1aa927fc6bc7a36317a42d0a21102787d12729"
-                <div class="konten ">
-                <h2>Reguler</h2>
-                    <p>Harga lebih terjangkau</p>
-                </div>
-            </article>
         </main>
-            </div>
-            
-        </section>
-
-        <!-- untuk rute -->
-        <section id="order">
-            <div class="tengah">
-                <div class="kolom">
-                    <h2>Cara Order</h2>
-                    <p>Ikuti langkah-langkahnya untuk melakukan pengiriman</p>
+        <footer id="contact">
+            <div class="layar-dalam">
+                <div>
+                    <h5>SiJeni</h5>
+                    Shipping Excellence Beyond Borders.
                 </div>
-
-                <div class="tutor-list">
-                    <div class="kartu-tutor">
-                        <img src="https://img.freepik.com/free-vector/forms-concept-illustration_114360-4957.jpg?w=740&t=st=1694142670~exp=1694143270~hmac=14b448b824602386cefd8f3fee2c689abef622138f710cf01ee20bd8235cabc5"/>
-                        <p>Isi Form Pengiriman</p>
-                    </div>
-                    <div class="kartu-tutor">
-                        <img src="https://img.freepik.com/free-vector/illustrated-cash-delivery-concept_23-2148789201.jpg?w=740&t=st=1694143768~exp=1694144368~hmac=fb7dee87177edfcfe680f57b16beb3b69a05a0d612c1e197695d623bf4b14f39"/>
-                        <p>Serahkan Paket ke Drop Point</p>
-                    </div>
-                    <div class="kartu-tutor">
-                        <img src="https://img.freepik.com/free-vector/delivery-truck-carton-boxes-city_23-2147677196.jpg?w=740&t=st=1694144091~exp=1694144691~hmac=8a92dd6fceb0481212b01ff3d0ce966a485aacf46b3556a3ffaf4d3aaa2405c1"/>
-                        <p>Paket akan dikirim ke Tujuan</p>
-                    </div>
-                    <div class="kartu-tutor">
-                        <img src="https://img.freepik.com/free-vector/delivery-concept-with-hand-drawn-happy-men_23-2147676487.jpg?w=740&t=st=1694144192~exp=1694144792~hmac=99c51702cd613ff46ab671bbcef3acc2c78c61800fdbe124a7bb8d286a12b512"/>
-                        <p>Paket Terkirim</p>
+                <div>
+                    <h5>About</h5>
+                    The best choice for your shipping needs with efficient, safe, and affordable shipping solutions.
+                </div>
+                <div>
+                    <h5>Contact</h5>
+                    customercare@jeni.com <br> 021-2345-6789
+                </div>
+                <div>
+                    <h5>Address</h5>
+                    Jl. Indonesia Raya No. 178
                 </div>
             </div>
-        </section>
-
-    </div>
-
-    <div id="contact">
-        <div class="wrapper">
-            <div class="footer">
-                <div class="footer-section">
-                    <h3>SiJeni</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>
-                </div>
-                <div class="footer-section">
-                    <h3>About</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, culpa!</p>
-                </div>
-                <div class="footer-section">
-                    <h3>Contact</h3>
-                    <p>Jl. Kaligawe Raya</p>
-                    <p>Kode Pos: </p>
-                </div>
-                <div class="footer-section">
-                    <h3>Social</h3>
-                    <p><b>YouTube: </b>capston project</p>
+            <div class="layar-dalam">
+                <div class="copyright">
+                    &copy; 2023 <b>SiJeni</b> All right reserved.
                 </div>
             </div>
-        </div>
+        </footer>
     </div>
 
-    <div id="copyright">
-        <div class="wrapper">
-            &copy; 2023. <b>SiJeni</b> All Rights Reserved.
-        </div>
-    </div>
-   <!-- <script>
-       const order=document.querySelector(".tbl-biru")
-    order.addEventListener("mouseenter", function() {
-    order.style.backgroundColor = "#544845";
-
-    });
-        order.addEventListener("mouseleave", function() {
-        order.style.backgroundColor = "#3f72af";
-    });
-   </script>  -->
-   <script>
-   const ubahMenu = document.querySelectorAll("li");
-   for (let i = 0; i<4; i++) {
-       ubahMenu [i].addEventListener("mouseenter", function() {
-           ubahMenu[i].style.backgroundColor = "white";
-           ubahMenu[i].style.borderRadius = "10px";
-           ubahMenu[i].style.marginTop = "10px";
-           ubahMenu[i].style.height = "50px";
-       });
-       ubahMenu[i].addEventListener("mouseleave", function() {
-           ubahMenu[i].style.backgroundColor = "#b0b0b0";
-       });
-   }
-</script>
+    <!-- End Video -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="/controller/javascript.js"></script>
 </body>
+
 </html>
